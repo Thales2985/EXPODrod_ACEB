@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "ACEB_App",
+    "slug": "ACEB_App",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/ic_launcher_ACEB_g.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/ic_launcher_ACEB_g.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ACEB"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/ic_launcher_ACEB_g.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.thales_de_souza.ACEB_App"
+    },
+    "web": {
+      "favicon": "./assets/ic_launcher_ACEB.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9968d9bf-4f8e-49a8-a5ab-bc3309b033db"
+      }
+    }
+  }
+}
